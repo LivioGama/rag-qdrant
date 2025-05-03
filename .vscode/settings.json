@@ -1,0 +1,7 @@
+{
+    "npm.packageManager": "bun",
+    "npm.scriptRunner": "bun",
+    "diffEditor.renderSideBySideInlineBreakpoint": 4000,
+    "diffEditor.useInlineViewWhenSpaceIsLimited": false,
+    "editor.formatOnSave": true
+}

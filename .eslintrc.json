@@ -1,0 +1,13 @@
+{
+  "root": true,
+  "extends": [
+    "@rag-qdrant/eslint-config"
+  ],
+  "settings": {
+    "next": {
+      "rootDir": [
+        "apps/*/"
+      ]
+    }
+  }
+}
