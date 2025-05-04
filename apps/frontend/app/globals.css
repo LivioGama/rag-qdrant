@@ -22,6 +22,11 @@ body {
   color: red;
 }
 
+
+.omg {
+  color: red;
+}
+
 @keyframes gradientBg {
   0% {
     background-position: 0% 50%;
