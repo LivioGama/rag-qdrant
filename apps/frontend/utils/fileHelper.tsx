@@ -1,5 +1,5 @@
 export const getLanguageFromFilename = (filename: string) => {
-  const ext = filename.split('.').pop()?.toLowerCase()
+  const ext = filename?.split('.').pop()?.toLowerCase()
   const languageMap: Record<string, string> = {
     ts: 'typescript',
     tsx: 'typescript',

@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "code-snippet-search": {
+      "command": "bun",
+      "args": [
+        "/Users/livio/Documents/rag-qdrant/apps/mcp/dist/index.js"
+      ],
+      "env": {
+        "OPENAI_API_KEY": "<your_key>"
+      }
+    }
+  }
+}

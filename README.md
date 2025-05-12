@@ -84,9 +84,9 @@ bun run setup:qdrant --recreate
 
 This setup replaces OpenAI with local models using [Ollama](https://ollama.ai/):
 - `nomic-embed-text`: For code content embeddings
-- `deepseek-coder:6.7b-instruct` or `mistral:7b`: For code summary assessment
+- `mistral:7b` or `deepseek-coder:6.7b-instruct`: For code summary assessment
 
-> Uses a separate collection `code_snippets_local` to preserve your main collection.
+> ⚠️ Note that OpenAI embedding gives a different vector size and better result, which is why we use a separate collection `code_snippets_local` according to the method.
 
 ### Ollama Configuration
 
