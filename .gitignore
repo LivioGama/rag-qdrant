@@ -38,3 +38,6 @@ yarn-error.log*
 *.pem
 .idea
 fixtures
+qdrant_storage
+*.log
+combined_file_index.json
